@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0507B7992042E0C0008B2C9B /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0507B7982042E0C0008B2C9B /* ReusableViewProtocol.swift */; };
+		0507B79B2042E16E008B2C9B /* NibLoadableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0507B79A2042E16E008B2C9B /* NibLoadableViewProtocol.swift */; };
+		0507B79D2042E2BA008B2C9B /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0507B79C2042E2BA008B2C9B /* CollectionView.swift */; };
+		0507B79F2042EA4C008B2C9B /* CornerRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0507B79E2042EA4C008B2C9B /* CornerRadiusView.swift */; };
 		059A5C272041E3DD0069FE9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A5C262041E3DD0069FE9F /* AppDelegate.swift */; };
 		059A5C292041E3DD0069FE9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A5C282041E3DD0069FE9F /* ViewController.swift */; };
 		059A5C2C2041E3DD0069FE9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059A5C2A2041E3DD0069FE9F /* Main.storyboard */; };
 		059A5C2E2041E3DD0069FE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059A5C2D2041E3DD0069FE9F /* Assets.xcassets */; };
 		059A5C312041E3DD0069FE9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059A5C2F2041E3DD0069FE9F /* LaunchScreen.storyboard */; };
 		059A5C3C2041E3DD0069FE9F /* CollectionViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A5C3B2041E3DD0069FE9F /* CollectionViewExampleTests.swift */; };
+		059A5C4D2041E47F0069FE9F /* RounderViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A5C4C2041E47F0069FE9F /* RounderViewProtocol.swift */; };
+		059A5C4F2041E61A0069FE9F /* RounderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A5C4E2041E61A0069FE9F /* RounderView.swift */; };
+		059A5C512041E7C50069FE9F /* ButtonRounder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A5C502041E7C50069FE9F /* ButtonRounder.swift */; };
+		059A5C552041E9DD0069FE9F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A5C542041E9DD0069FE9F /* CollectionViewController.swift */; };
+		059A5C592041EA0D0069FE9F /* PolicyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A5C572041EA0D0069FE9F /* PolicyViewCell.swift */; };
+		059A5C5A2041EA0D0069FE9F /* PolicyViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 059A5C582041EA0D0069FE9F /* PolicyViewCell.xib */; };
+		059A5C5C2041EAC10069FE9F /* CornerRadiusViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A5C5B2041EAC10069FE9F /* CornerRadiusViewProtocol.swift */; };
+		059A5C5E2041EF520069FE9F /* Policy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A5C5D2041EF520069FE9F /* Policy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0507B7982042E0C0008B2C9B /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
+		0507B79A2042E16E008B2C9B /* NibLoadableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableViewProtocol.swift; sourceTree = "<group>"; };
+		0507B79C2042E2BA008B2C9B /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		0507B79E2042EA4C008B2C9B /* CornerRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusView.swift; sourceTree = "<group>"; };
 		059A5C232041E3DD0069FE9F /* CollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		059A5C262041E3DD0069FE9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		059A5C282041E3DD0069FE9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +52,14 @@
 		059A5C372041E3DD0069FE9F /* CollectionViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		059A5C3B2041E3DD0069FE9F /* CollectionViewExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExampleTests.swift; sourceTree = "<group>"; };
 		059A5C3D2041E3DD0069FE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059A5C4C2041E47F0069FE9F /* RounderViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RounderViewProtocol.swift; sourceTree = "<group>"; };
+		059A5C4E2041E61A0069FE9F /* RounderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RounderView.swift; sourceTree = "<group>"; };
+		059A5C502041E7C50069FE9F /* ButtonRounder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRounder.swift; sourceTree = "<group>"; };
+		059A5C542041E9DD0069FE9F /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		059A5C572041EA0D0069FE9F /* PolicyViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyViewCell.swift; sourceTree = "<group>"; };
+		059A5C582041EA0D0069FE9F /* PolicyViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PolicyViewCell.xib; sourceTree = "<group>"; };
+		059A5C5B2041EAC10069FE9F /* CornerRadiusViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusViewProtocol.swift; sourceTree = "<group>"; };
+		059A5C5D2041EF520069FE9F /* Policy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Policy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +101,11 @@
 		059A5C252041E3DD0069FE9F /* CollectionViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				059A5C4B2041E4250069FE9F /* Protocols */,
+				059A5C4A2041E41C0069FE9F /* Extension */,
+				059A5C492041E4130069FE9F /* Presenter */,
+				059A5C482041E3FB0069FE9F /* View */,
+				059A5C472041E3EB0069FE9F /* Model */,
 				059A5C262041E3DD0069FE9F /* AppDelegate.swift */,
 				059A5C282041E3DD0069FE9F /* ViewController.swift */,
 				059A5C2A2041E3DD0069FE9F /* Main.storyboard */,
@@ -94,6 +123,77 @@
 				059A5C3D2041E3DD0069FE9F /* Info.plist */,
 			);
 			path = CollectionViewExampleTests;
+			sourceTree = "<group>";
+		};
+		059A5C472041E3EB0069FE9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				059A5C5D2041EF520069FE9F /* Policy.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		059A5C482041E3FB0069FE9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				059A5C562041E9E20069FE9F /* Cells */,
+				059A5C532041E9A90069FE9F /* Controllers */,
+				059A5C522041E9930069FE9F /* Views */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		059A5C492041E4130069FE9F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		059A5C4A2041E41C0069FE9F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0507B79C2042E2BA008B2C9B /* CollectionView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		059A5C4B2041E4250069FE9F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				059A5C4C2041E47F0069FE9F /* RounderViewProtocol.swift */,
+				059A5C5B2041EAC10069FE9F /* CornerRadiusViewProtocol.swift */,
+				0507B7982042E0C0008B2C9B /* ReusableViewProtocol.swift */,
+				0507B79A2042E16E008B2C9B /* NibLoadableViewProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		059A5C522041E9930069FE9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				059A5C4E2041E61A0069FE9F /* RounderView.swift */,
+				059A5C502041E7C50069FE9F /* ButtonRounder.swift */,
+				0507B79E2042EA4C008B2C9B /* CornerRadiusView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		059A5C532041E9A90069FE9F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				059A5C542041E9DD0069FE9F /* CollectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		059A5C562041E9E20069FE9F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				059A5C572041EA0D0069FE9F /* PolicyViewCell.swift */,
+				059A5C582041EA0D0069FE9F /* PolicyViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +281,7 @@
 			files = (
 				059A5C312041E3DD0069FE9F /* LaunchScreen.storyboard in Resources */,
 				059A5C2E2041E3DD0069FE9F /* Assets.xcassets in Resources */,
+				059A5C5A2041EA0D0069FE9F /* PolicyViewCell.xib in Resources */,
 				059A5C2C2041E3DD0069FE9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,7 +300,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				059A5C552041E9DD0069FE9F /* CollectionViewController.swift in Sources */,
+				0507B7992042E0C0008B2C9B /* ReusableViewProtocol.swift in Sources */,
+				059A5C592041EA0D0069FE9F /* PolicyViewCell.swift in Sources */,
+				059A5C5E2041EF520069FE9F /* Policy.swift in Sources */,
+				059A5C512041E7C50069FE9F /* ButtonRounder.swift in Sources */,
+				059A5C4D2041E47F0069FE9F /* RounderViewProtocol.swift in Sources */,
+				0507B79D2042E2BA008B2C9B /* CollectionView.swift in Sources */,
+				0507B79B2042E16E008B2C9B /* NibLoadableViewProtocol.swift in Sources */,
+				059A5C5C2041EAC10069FE9F /* CornerRadiusViewProtocol.swift in Sources */,
 				059A5C292041E3DD0069FE9F /* ViewController.swift in Sources */,
+				0507B79F2042EA4C008B2C9B /* CornerRadiusView.swift in Sources */,
+				059A5C4F2041E61A0069FE9F /* RounderView.swift in Sources */,
 				059A5C272041E3DD0069FE9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

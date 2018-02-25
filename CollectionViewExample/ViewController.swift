@@ -10,9 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var rounderView: RounderView!
+    @IBOutlet weak var goToCollectionViewButton: ButtonRounder!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupUI()
+        
+    }
+    
+    func setupUI() {
+        rounderView.addRounder()
+        goToCollectionViewButton.addRounder()
     }
 
     override func didReceiveMemoryWarning() {
